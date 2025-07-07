@@ -1,1 +1,26 @@
+:root {
+    --clr-black: #000000; /* Black */
+    --clr-darkgray: #333; /* Dark Gray */
+    --clr-lightgray: #f4f4f4; /* Light Gray */
+    --clr-white: #fff; /* White */
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: var(--clr-black);
+}
+
+h1 {
+    color: var(--clr-lightgray);
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: var(--clr-darkgray);
+    text-align: center;
+    margin: 10px 20px;
+}
